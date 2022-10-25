@@ -19,6 +19,7 @@ nav{
 .colors{
     padding: 16px;
     border-radius: 50%;
+    border: none;
 }
 #red{
     background-color: red;
@@ -27,14 +28,13 @@ nav{
     background-color: yellow;
 }
 #green{
-    background-color: green;
+    background-color:  rgb(6, 241, 6);
 }
 
 section{
     display: flex;
     background-color: rgb(235, 230, 230);
-    height: 1400px;
-    
+    height: 567px;
     justify-content: center;
 }
 
@@ -91,4 +91,6 @@ input{
     background-color: rgb(238, 111, 8);
 }
 
-.button
+.buttons a{
+    text-decoration: none;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+header{
+    background-color: blue;
+    padding: 10px 0;
+}
+nav{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.colors{
+    padding: 16px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: rgb(6, 241, 6);
+}
+
+section{
+    display: flex;
+
+}
+
+.left{
+    width: 180px;
+    height: 600px;
+    border-right: 3px solid grey;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.image img{
+    height: 110px;
+    width: 110px;
+}
+.on-menu{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: blue;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 1000px; 
+    padding: 20px 30px;  
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top p{
+    color: black;
+    font-size: 2.5rem;
+}
+.inputs input{
+    height: 25px;
+    width: 200px;
+    border: 1px solid grey;
+}
+
+.down{
+    border: 2px solid rgb(160, 159, 159);
+    height: 500px;
+    padding:10px 0;
+}
+.products{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px 0;
+}
