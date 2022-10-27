@@ -75,6 +75,13 @@ input{
     height: 40px;
     width: 315px;
     border: 2px solid rgb(214, 212, 212);
+    padding-left: 10px; 
+    padding-right: 10px;
+    letter-spacing: 1px;
+    color: rgb(126, 114, 114);
+}
+input:focus{
+    outline: none;
 }
 
 .button{
